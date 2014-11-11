@@ -4,6 +4,7 @@ Multiplication Program
 This program multiples numbers and errors if value is negative
 
 ###Code
+""
 LDA NULL
 INP
 STA FIRST
@@ -32,3 +33,4 @@ FIRST DAT
 SECOND DAT
 COUNT DAT
 NULL DAT 0
+""
