@@ -10,11 +10,11 @@ Third Input|Second Number|Number to be subtracted/divided from base
 Output|Answer|-1 for division is error code
 
 ##Features
-- [x] Multiply
-- [x] Add
-- [x] Subtract
-- [x] Divide
- - [x] Remainder
+- [ ] Multiply
+- [ ] Add
+- [ ] Subtract
+- [ ] Divide
+ - [ ] Remainder
  - [ ] Decimals?
 - [ ] Indecies
 - [ ] Root
