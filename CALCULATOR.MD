@@ -2,10 +2,22 @@ CALCULATOR
 =========
 
 ##Commands
-First Input: Operation (1=+, 2=-, 3=*, 4=/,(Invalid input closes program)) 
-Second Input: First Number
-Third Input: Second Number (Number to be subtracted/divided from base)
-Output: Answer (-1 for division is error code)
+I/O|Function|Notes
+---|----|----
+First Input|Operation|1=+, 2=-, 3=*, 4=/,(Invalid input closes program)
+Second Input|First Number|
+Third Input|Second Number|Number to be subtracted/divided from base
+Output|Answer|-1 for division is error code
+
+##Features
+- [x] Multiply
+- [x] Add
+- [x] Subtract
+- [x] Divide
+ - [x] Remainder
+ - [ ] Decimals?
+- [ ] Indecies
+- [ ] Root
 
 ##Code
 ```
@@ -40,7 +52,18 @@ HLT
 END LDA COUNT
 OUT
 HLT
-ERR LDA NEGATIVE
+ERR LDA COUNT
+SUB ONE
+OUT
+LDA SLEEPBASE
+STA SLEEP
+SLEEPBRA LDA SLEEP
+SUB ONE
+STA SLEEP
+BRP SLEEPBRA
+LDA FIRST
+ADD SECOND
+STA REMAINDER
 OUT
 HLT
 FMULT LDA NULL
@@ -91,4 +114,7 @@ SECOND DAT
 COUNT DAT
 NULL DAT 0
 NEGATIVE DAT -1
+REMAINDER DAT 0
+SLEEPBASE DAT 25
+SLEEP DAT 0
 ```
