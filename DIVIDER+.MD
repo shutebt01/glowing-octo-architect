@@ -5,6 +5,7 @@ DIVIDER PLUS
 It is an adaption of the divider program that also calculates remainder.
 
 ##Arguments
+I/O|Function|Notes
 ------------|--------------|----------------------
 First input | First number |(Number to be divided)
 Second Input| Second Number |(Number to be divided by)
