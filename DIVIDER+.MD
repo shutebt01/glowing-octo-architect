@@ -5,10 +5,11 @@ DIVIDER PLUS
 It is an adaption of the divider program that also calculates remainder.
 
 ##Arguments
-First input: First number (Number to be divided)
-Second Input: Second Number (Number to be divided by)
-Output One: Answer (Less remainder)
-Output Two: Remainder (Optional)
+------------|--------------|----------------------
+First input | First number |(Number to be divided)
+Second Input| Second Number |(Number to be divided by)
+Output One| Answer |(Less remainder)
+Output Two| Remainder |(Optional)
 
 ##Code
 ```
